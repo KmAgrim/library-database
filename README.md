@@ -4,8 +4,9 @@ A simple relational database project that manages books, members, and borrowing 
 
 ## Features
 - Table relationships using foreign keys
-- Book borrowing system
-- SQL JOIN queries to retrieve combined data
+- Track which books are currently borrowed
+- Identify available and unavailable books
+- View borrowing history of members
 
 ## Tables
 - books
