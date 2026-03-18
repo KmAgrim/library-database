@@ -1,9 +1,13 @@
-# Library Database
+# Library Database (MySQL)
 
-A simple relational database built with MySQL to manage books, members, and borrowing records.
+A simple relational database project that manages books, members, and borrowing records.
+
+## Features
+- Table relationships using foreign keys
+- Book borrowing system
+- SQL JOIN queries to retrieve combined data
 
 ## Tables
-
-books – stores information about books in the library  
-members – stores library members  
-loans – tracks which member borrowed which book
+- books
+- members
+- loans
