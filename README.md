@@ -1,12 +1,13 @@
 # Library Database (MySQL)
 
-A simple relational database project that manages books, members, and borrowing records.
+## Description
+A relational database system to manage books, members, and borrowing records.
 
 ## Features
-- Table relationships using foreign keys
-- Track which books are currently borrowed
-- Identify available and unavailable books
-- View borrowing history of members
+- Track borrowed and returned books
+- Identify currently issued books
+- Detect overdue books using due_date
+- Count books borrowed by each member
 
 ## Tables
 - books
