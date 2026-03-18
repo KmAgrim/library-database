@@ -17,6 +17,7 @@ CREATE TABLE loans (
     book_id INT,
     borrow_date DATE,
     return_date DATE,
+    due_date DATE,
     FOREIGN KEY (member_id) REFERENCES members(member_id),
     FOREIGN KEY (book_id) REFERENCES books(book_id)
 );
